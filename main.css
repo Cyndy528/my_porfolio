@@ -1,0 +1,104 @@
+body {
+    background-color: #EAEAEA;
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar {
+    background-color: #DB7036;
+    text-align: center;
+}
+
+.nav-link {
+    color: white;
+}
+
+.jumbotron {
+    color: white;
+    background: url(images/background.png);
+    background-size: cover;
+	}
+
+#main_title {
+	text-shadow: 0 5px black
+}
+
+.footer {
+    background-color: #DB7036;
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+
+small {
+	padding-bottom: -10px;
+}
+img#main_pic{
+    height: 180px;
+    width: 116px;
+    border: 2px solid black;
+    display: inline-block;
+}
+
+p {
+	font-family: sans-serif;
+	font-size: 15px;
+	line-height: 200%;
+}
+
+h4.main_headings {
+	text-align: center;
+}
+
+@media (min-width: 768px)
+{   
+    .row-relative { position: relative; }
+
+    .col-border-padding { padding-left:  20px; }
+    .col-border
+    {
+        padding-left: 0;
+        position: static;
+    }
+    .col-border:before
+    {
+        content: "";
+        position: absolute;
+        top: 0px;
+        bottom: 0px;
+        border-left: 1px solid black;
+    }
+}
+
+td {
+    background-color: #EAEAEA;
+}
+
+li {
+
+    line-height: 200%;
+}
+
+.card-img-top {
+    height: 150px;
+    width: 250px;
+    border: 2px solid black;
+}
+
+h4 {
+    text-align: center;
+}
+
+p.card-text {
+    text-align: left;
+}
+
+hr {
+    border: 1px solid #d3d3d3;
+    width: 80%;
+;
+}
